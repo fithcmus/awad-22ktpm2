@@ -31,8 +31,8 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | Database mock data | \-1 |  |  | Sample courses, lessons, categories, users, quizzes, and test enrollments |
 |  | Website layout | \-2 |  |  | AppShell with header, sidebar, content area. Role-based layouts for Guest, Student, Instructor, Admin |
 |  | Website architect | \-3 |  |  | Based on MVC architecture. Clear separation of concerns with controllers, services, repositories. Client-side validation, Input validation, Business rule validation |
-|  | Website stability and compatibility | \-2 |  |  | Responsive design, tested on Chrome, Safari, Firefox, and Edge |
-|  | Document | \-1 |  |  | Clear documentation for developers and users: setup guide, API endpoints, database design, system architecture, user guide |
+|  | Website stability and compatibility | \-4 |  |  | Responsive design, tested on Chrome, Safari, Firefox, and Edge |
+|  | Document | \-2 |  |  | Clear documentation for developers and users: setup guide, API endpoints, database design, system architecture, user guide |
 |  | Demo video | \-5 |  |  | Video demonstrating all features: auth, guest browse/search, student enroll/lessons/quiz, instructor create course/lesson/quiz, admin approve/reject |
 |  | Publish to public hosts | \-1 |  |  | Deployed FE/BE to a public hosting service with accessible URL |
 |  | Development progress is recorded in Github | \-7 |  |  | Git history with meaningful commits, branches for features, pull requests |
@@ -75,9 +75,6 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | › Take quiz | \-0.25 |  |  | Answer MCQ questions (A/B/C/D) |
 |  | › Instant scoring | \-0.25 |  |  | Submit answers → auto-grade → view score |
 |  | › View quiz results | \-0.25 |  |  | Score display with correct/incorrect answers |
-|  | Embedded IDE (Optional) |  |  |  |  |
-|  | › IDE UI integration | 0.5 |  |  | Code editor, Run button, Output console attached to lesson |
-|  | › Multi-language runtime | 0.5 |  |  | Support ≥2 languages (Python + JavaScript) |
 | **5** | **Features for Instructors** |  |  |  |  |
 |  | Instructor Dashboard | \-0.5 |  |  | Show created courses, student enrollment count, average quiz scores |
 |  | Course Management |  |  |  |  |
@@ -108,6 +105,9 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | › Approve/Reject courses | \-0.25 |  |  | Course states: draft → pending → approved/published → rejected/hidden |
 |  | › Show interactive charts | \-0.25 |  |  | Charts for system statistics (users, courses, enrollments) |
 | **7** | **Advanced features** |  |  |  |  |
+|  | Embedded IDE |  |  |  |  |
+|  | › IDE UI integration | 0.25 |  |  | Code editor, Run button, Output console attached to lesson |
+|  | › Multi-language runtime | 0.25 |  |  | Support ≥2 languages (Python + JavaScript) |
 |  | Dockerize your project | 0.25 |  |  | Docker containers for backend, frontend, database |
 |  | CI/CD | 0.25 |  |  | Automated testing and deployment pipeline (GitHub Actions, GitLab CI, Jenkins, etc.) |
 |  | Test coverage | 0.25 |  |  | Testing core flows: auth, browse/search, enroll, lessons, quiz, admin |
