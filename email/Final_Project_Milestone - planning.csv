@@ -1,0 +1,27 @@
+Nhóm thực hiện: 22120120 - 22120157 - 22120163,,,,,,,
+,,,,,,,
+,,,,,,,
+Timeline,Key Features / Tasks,Description,Definition of Done,Priority,Assigned To,Due Date,Status
+Week 1: Basic Application,1. Gmail Authentication,"Tích hợp Google OAuth 2.0 cho login và cấp quyền truy cập 
+Gmail (Read).","- Login được với Google
+- BE có thể dùng GMail API để fetch Gmail ở bước sau",Low,Member 1,11/11/2025,Developing
+,2. Email Synchronization ,Đồng bộ email từ Gmail, - Lấy được nội dung email từ gmail.,Low,Member 2,11/12/2025,Developing
+,3. Kanban Interface,"Giao diện dạng bảng Kanban với các cột 
+(ví dụ: inbox, todo, done,...)","- Hiển thị các Email dưới dạng ""Card"" trong cột Inbox.
+- Mỗi Card hiển thị thông tin cơ bản, và một nút/icon ""Open in Gmail"" để mở email (link đến Gmail)",Low,Member 1,11/13/2025,Developing
+Week 2: Core Workflow & AI Summarization,4. Kanban Drag-and-Drop,Kéo thả Card giữa các cột để thay đổi trạng thái.,- Kéo thả giữa các cột,Low,Member 2,11/14/2025,Developing
+,5. Snooze Mechanism,"Tạm ẩn email khỏi Inbox và tự động đưa nó quay lại vào thời điểm đã chọn
+ (Ví dụ: Ngày mai, Tuần sau).","- User chọn được thời gian Snooze cụ thể.
+- Email biến mất khỏi Kanban board sau khi Snooze.
+- Hệ thống tự động đổi trạng thái email về kanban board khi đến giờ hẹn.",Low,Member 1,11/15/2025,Developing
+,6. AI Summarization (BE only),Gọi LLM để tóm tắt nội dung email thành 2-3 dòng ngắn gọn.,- Có API hoặc Function nhận text đầu vào -> Trả về text tóm tắt.,Low,Member 1,11/16/2025,Developing
+Week 3: Semantic Search Infrastructure,"7. Summary UI Integration (FE, gọi API từ feature 6)",Cập nhật giao diện Card trên Kanban để hiển thị đoạn tóm tắt ,- Card hiển thị đoạn tóm tắt 2-3 dòng,Low,Member 1,11/17/2025,Developing
+,8. Text Embedding (For semantic search),Chuyển đổi nội dung của email thành Vector sử dụng Embedding Model.,"- Email khi được sync về thì được embedding và lưu trữ các vector đã tạo vào Vector Database 
+(pgvector, ...) để phục vụ truy vấn nhanh",Low,Member 1,11/18/2025,Developing
+Week 4: Semantic Search Interface,9. Feature: Natural Language Search (BE only),"Cho phép người dùng nhập câu hỏi tự nhiên (VD: ""Tài liệu họp tuần trước"") để tìm email liên quan thay vì khớp từ khóa chính xác.","- Nhập query ""hóa đơn"" -> Ra kết quả chứa từ ""invoice"", ""bill"", ""thanh toán"" (Semantic match)
+",Low,Member 1,11/19/2025,Developing
+Week 5: Deployment & Deliverables,"10. Feature: Search Results UI & Highlighting (FE, gọi API từ feature 9)",Kết quả tìm kiếm hiển thị dưới dạng danh sách các Card (giống Card trên Kanban).,"- Search ""hóa đơn"" -> Ra list các Card liên quan.
+- Trên Card kết quả vẫn có nút ""Open in Gmail"" và đoạn tóm tắt AI.
+- Có thể thay đổi trạng thái email trong trang kết quả tìm kiếm",Low,Member 1,11/20/2025,Developing
+,11. Testing & Deploy,,- Có link deploy,Low,Member 1,11/21/2025,Developing
+,12. Deliverable: Video minh họa sản phẩm.,,- Có video demo (link youtube / google drive),Low,Member 1,11/22/2025,Developing
