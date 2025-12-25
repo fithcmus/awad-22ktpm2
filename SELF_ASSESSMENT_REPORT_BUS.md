@@ -63,10 +63,8 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | › Receive e-ticket | \-0.25 |  |  | E-ticket generation and delivery via email |
 |  | AI Chatbot |  |  |  |  |
 |  | › AI-powered trip search | \-0.25 |  |  | OpenAI-powered chatbot for trip search assistance |
-|  | › AI booking assistance | \-0.25 |  |  | Chatbot helps users complete booking flow |
 |  | Real-time features |  |  |  |  |
 |  | › Real-time seat locking | \-0.5 |  |  | Concurrent booking handling with seat locking mechanism |
-|  | › WebSocket real-time updates | \-0.5 |  |  | Socket.IO for real-time: seat availability, booking confirmations, trip status notifications |
 |  | Payment system integration | \-0.5 |  |  | Payment gateway integration (Stripe, PayOS, VNPay, MoMo, etc.) |
 |  | Fulltext search | \-0.25 |  |  | Fulltext search for route/station search |
 |  | E-ticket with QR code | \-0.25 |  |  | Generate e-tickets with QR code for check-in |
@@ -79,7 +77,6 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | Social Sign-up/Sign-In | \-0.25 |  |  | Google/Facebook OAuth integration |
 |  | Login to the website | \-0.25 |  |  | JWT-based authentication for admin/users |
 |  | Authorize website features | \-0.25 |  |  | Role-based access control (Admin, Customer) |
-|  | Forgot password by email | \-0.25 |  |  | Password reset via email link |
 | **4** | **Features for logged-in users (Customers)** |  |  |  |  |
 |  | Update user profile | \-0.25 |  |  | Customer can update name, phone, preferences |
 |  | Verify user input | \-0.25 |  |  | Input validation on profile updates |
@@ -90,7 +87,7 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | › View booking details | \-0.25 |  |  | Full booking details with trip info, seats, payment status |
 |  | › Cancel booking | \-0.25 |  |  | Cancel booking with refund policy display |
 |  | › Download e-ticket | \-0.25 |  |  | Download ticket as PDF |
-|  | › Real-time trip updates | 0.5 |  |  | WebSocket-based live trip status updates (delays, cancellations) |
+|  | › Real-time trip updates | 0.5 |  |  | live trip status updates (delays, cancellations) |
 | **5** | **Administration features** |  |  |  |  |
 |  | Update admin profile | \-0.25 |  |  | Admin profile management |
 |  | Dashboard overview | \-0.5 |  |  | Dashboard with key metrics: total bookings, revenue, upcoming trips |
@@ -121,9 +118,6 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | › View revenue report in time range | \-0.25 |  |  | Daily, weekly, monthly revenue reports |
 |  | › View top routes by bookings | \-0.25 |  |  | Most popular routes report |
 |  | › Show interactive chart in reports | \-0.25 |  |  | Chart.js/Recharts for analytics dashboard (bookings/day, revenue trends, popular routes) |
-|  | User Management |  |  |  |  |
-|  | › Create admin accounts | \-0.25 |  |  | Create new admin accounts |
-|  | › Manage admin accounts | \-0.25 |  |  | View, edit, deactivate admin accounts |
 |  | Trip Operations |  |  |  |  |
 |  | › View passenger list | \-0.25 |  |  | List of passengers for each trip |
 |  | › Check-in passengers | \-0.25 |  |  | Mark passengers as boarded |
@@ -178,7 +172,6 @@ Students must input minus points to every uncompleted feature in the SE column.
 - **Database:** PostgreSQL
 - **Authentication:** Passport.js with JWT
 - **Payment:** Stripe, PayOS, VNPay, MoMo, or other payment gateways
-- **Real-time:** Socket.IO / WebSocket
 - **Caching:** Redis
 - **AI:** OpenAI API for chatbot
 - **Notifications:** SendGrid, AWS SES, Nodemailer, or other email services
