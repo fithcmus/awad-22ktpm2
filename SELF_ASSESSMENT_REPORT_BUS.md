@@ -63,6 +63,7 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | › Receive e-ticket | \-0.25 |  |  | E-ticket generation and delivery via email |
 |  | AI Chatbot |  |  |  |  |
 |  | › AI-powered trip search | \-0.25 |  |  | OpenAI-powered chatbot for trip search assistance |
+|  | › AI booking assistance | \-0.25 |  |  | Chatbot helps users complete booking flow |
 |  | Real-time features |  |  |  |  |
 |  | › Real-time seat locking | \-0.5 |  |  | Concurrent booking handling with seat locking mechanism |
 |  | Payment system integration | \-0.5 |  |  | Payment gateway integration (Stripe, PayOS, VNPay, MoMo, etc.) |
