@@ -66,6 +66,7 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | › AI booking assistance | \-0.25 |  |  | Chatbot helps users complete booking flow |
 |  | Real-time features |  |  |  |  |
 |  | › Real-time seat locking | \-0.5 |  |  | Concurrent booking handling with seat locking mechanism |
+|  | › Real-time updates | \-0.5 |  |  | Socket.IO or polling updates for real-time: seat availability, booking confirmations, trip status notifications |
 |  | Payment system integration | \-0.5 |  |  | Payment gateway integration (Stripe, PayOS, VNPay, MoMo, etc.) |
 |  | Fulltext search | \-0.25 |  |  | Fulltext search for route/station search |
 |  | E-ticket with QR code | \-0.25 |  |  | Generate e-tickets with QR code for check-in |
@@ -78,6 +79,7 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | Social Sign-up/Sign-In | \-0.25 |  |  | Google/Facebook OAuth integration |
 |  | Login to the website | \-0.25 |  |  | JWT-based authentication for admin/users |
 |  | Authorize website features | \-0.25 |  |  | Role-based access control (Admin, Customer) |
+|  | Forgot password by email (this feature is optional in case of using SMS OTP instead) | \-0.25 |  |  | Password reset via email link |
 | **4** | **Features for logged-in users (Customers)** |  |  |  |  |
 |  | Update user profile | \-0.25 |  |  | Customer can update name, phone, preferences |
 |  | Verify user input | \-0.25 |  |  | Input validation on profile updates |
@@ -173,6 +175,7 @@ Students must input minus points to every uncompleted feature in the SE column.
 - **Database:** PostgreSQL
 - **Authentication:** Passport.js with JWT
 - **Payment:** Stripe, PayOS, VNPay, MoMo, or other payment gateways
+- **Real-time:** Socket.IO (WebSocket) / polling update
 - **Caching:** Redis
 - **AI:** OpenAI API for chatbot
 - **Notifications:** SendGrid, AWS SES, Nodemailer, or other email services
