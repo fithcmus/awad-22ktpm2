@@ -111,6 +111,9 @@ Students must input minus points to every uncompleted feature in the SE column.
 |  | Dockerize your project | 0.25 |  |  | Docker containers for backend, frontend, database |
 |  | CI/CD | 0.25 |  |  | Automated testing and deployment pipeline (GitHub Actions, GitLab CI, Jenkins, etc.) |
 |  | Test coverage | 0.25 |  |  | Testing core flows: auth, browse/search, enroll, lessons, quiz, admin |
+| Chat Bot Service | 0.25 | 0.25 | Allows communication between students and AI agent |
+| Microservices Architecture | 0.25 | 0.25 | System is separated into independent services |
+| VPS Deployment | 0.25 | 0.25 | Application deployed on VPS and accessible via the Internet |
 
 # **GIT HISTORY**
 
